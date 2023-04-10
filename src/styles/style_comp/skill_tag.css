@@ -1,0 +1,141 @@
+.skill_tag {
+    border: solid 1px transparent;
+    border-radius: 5px;
+    margin: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(235,235,235,1);
+    -moz-box-shadow: 5x 5x 5px 0px rgba(235,235,235,1);
+    box-shadow: 5px 5px 5px 0px rgba(235,235,235,1);
+}
+
+.job_hyperlink {
+    text-decoration: underline;
+    color: #495057;
+}
+.work_project {
+    background-color: black;
+    color: white;
+}
+.work_project a {
+    color: white;
+}
+
+/** Tag Colors **/
+
+/** Where -> Grey */
+
+.tag_where_0 {
+    background: #f1f3f5;
+}
+
+
+/** Date -> Red & Pink */
+.tag_date_23 {
+    background: #ffe3e3;
+}
+.tag_date_22 {
+    background: #ffdeeb;
+
+}
+.tag_date_21  {
+    background: #ffc9c9;
+
+}
+.tag_date_20 {
+    background: #fcc2d7;
+
+}
+
+
+/** Date -> Indigo & Blue */
+.tag_lang_0  {
+    background: #dbe4ff;
+}
+.tag_lang_1{
+    background: #d0ebff;
+    
+
+}
+.tag_lang_2 {
+    background: #99e9f2;
+
+}
+.tag_lang_3{
+    background: #bac8ff;
+
+}
+.tag_lang_4 {
+    background: #e7f5ff;
+
+}
+
+.tag_lang_5 {
+    background: #91a7ff;
+}
+
+
+/** Date -> Green & Lime */
+
+
+.tag_fw_0{
+    background: #d3f9d8;
+
+}
+
+.tag_fw_1 {
+    background: #e9fac8;
+
+}
+.tag_fw_2  {
+    background: #b2f2bb;
+
+}
+.tag_fw_3{
+    background: #d8f5a2;
+
+}
+
+
+/** Database -> Green & Lime */
+.tag_db_0 {
+    background: #fff3bf;
+
+}
+.tag_db_1{
+    background: #ffe8cc;
+
+}
+
+.tag_db_2{
+    background: #ffec99;
+
+}
+
+.tag_db_3{
+    background: #ffd8a8;
+
+}
+
+/** Database -> Grape & Violet */
+.tag_tool_0 {
+    background: #f3d9fa;
+
+}
+
+.tag_tool_1 {
+    background: #e5dbff;
+
+}
+
+.tag_tool_2 {
+    background: #eebefa;
+
+}
+
+.tag_tool_3 {
+    background: #d0bfff;
+
+}
+tag_dev_0 {
+    background: #f8f0fc;
+}

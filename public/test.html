@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="App.js"></script>
+
+    <title>React App</title>
+</head>
+
+<body>
+    <section id="pf">
+        <div id="pf_banner">
+            <div id="root">
+            </div>
+        </div>
+        <div id="pf_center">
+            <div id="pf_right">
+                <div id="pf_content">
+                    <div class="content" id="me">
+                        <div class="me_col" id="pf_left">
+                            <h2 id="my_name">
+                                Seohyun Claire yoon
+                            </h2>
+                            <h3 class="my_info">
+                                &#128205; West Lafayette, IN
+                            </h3>
+                            <h3 class="my_info">
+                                &#127979; Purdue University
+                            </h3>
+                            <h4 class="my_info">
+                                &#10133; Computer and Information Technology
+                            </h4>
+                            <h4 class="my_info">
+                                &#10134; Technology Leadership & Innovation
+                            </h4>
+
+                            <div id="hashtag_me">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <h2>Software Developer</h2>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <h2>Full Stack Developer</h2>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <h2>Web Developer</h2>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <h2>Cloud Architect</h2>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <h2>Personal Projects</h2>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+                        <section class="me_col" id="pf_middle">
+                            <header>Create, Energetic, Enjoy!</header>
+                            <p>I am a <span>senior</span> year student at <span>Purdue University</span></p>
+                            <p>My interests lie within the entire Information Technology field, with a particular
+                                passion for
+                                software
+                                development, DevOps, Cloud, and Database. I enjoy the challenge of designing, creating,
+                                and solving
+                                problems, and I am currently exploring web development and AWS Cloud areas.</p>
+
+                            <p>Growing up in South Korea and visiting countries such as Australia, Canada, Japan, China,
+                                Thailand,
+                                Taiwan, and the United States has fostered my open-mindedness and love of diverse
+                                cultures.</p>
+                            <p> This allows
+                                me to think outside the box and find creative ways to make things more efficient,
+                                which is a strength I bring to any project.</p>
+
+                            <p>With my strong intuition and analytical skills, I am adept at identifying problems and
+                                generating
+                                innovative solutions. I love taking on new experiences and challenges and am always
+                                seeking out
+                                opportunities to grow and learn. My enthusiasm for life and adaptability make me a
+                                positive and
+                                valuable
+                                addition to any team.</p>
+
+                        </section>
+                        <section class="me_col">
+
+                            <div id="root">
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        </div>
+    </section>
+</body>
+<script>
+    ReactDOM.render(<App />, document.getElementById('root'));
+</script>
+<script>
+    /*
+    const options = document.querySelectorAll('.pf_opt a');
+  
+    // Add event listeners to each option
+    options.forEach((option) => {
+      option.addEventListener('click', (event) => {
+        // Remove 'selected' class from all options
+        options.forEach((opt) => opt.classList.remove('opt_selected'));
+  
+        // Add 'selected' class to clicked option
+        event.target.classList.add('opt_selected');
+      });
+    });
+  
+    window.addEventListener("load", togglePFContent);
+  
+    function togglePFContent() {
+      const pfOptDivs = document.querySelectorAll(".pf_opt");
+      const pfContentDivs = document.querySelectorAll("#pf_content > div");
+  
+      pfOptDivs.forEach((pfOptDiv, index) => {
+        pfOptDiv.addEventListener("click", () => {
+          pfContentDivs.forEach(pfContentDiv => pfContentDiv.hidden = true);
+          pfContentDivs[index].hidden = false;
+        });
+      });
+    }
+  
+            <div class="content" id="work">
+            <div class="tweet">
+              <h2>Assistant Web App Developer</h2>
+              <h3>Purdue Online</h3>
+              <h4>May 2022 - Present</h4>
+              <h5>Skills : Python, Django, MySQL (DB Design), HTML5, CSS3, JavaScript, Agile</h5>
+              <li>Collaborated with cross-functional teams, including Quality Assurance (QA) and fellow
+                developers, to design and develop a web application aimed at improving workflow efficiency.
+              </li>
+              <li>Contributed to the creation of intuitive and responsive front-end interfaces to display
+                complex data tables, management systems, statistics, and graphical charts.</li>
+              <li>
+                Demonstrated expertise in developing efficient back-end logic, scalable and secure database
+                systems, including the successful completion of 7 relational databases across 3 projects.
+              </li>
+              <li> Participated in code reviews and meticulously maintained clear and thorough documentation.
+              </li>
+            </div>
+            <div class="tweet">
+              <h2>Technology Representative</h2>
+              <h3>Purdue University - ITaP</h3>
+              <h4>April - May 2022, July -August 2022</h4>
+              <h5>Skills : Python, Django, MySQL (DB Design), HTML5, CSS3, JavaScript, Agile</h5>
+              <li>Assisted students, faculty, and staff members in resolving IT-related issues with a strong
+                focus on customer service. </li>
+              <li>Provided technical support and troubleshooting for various IT
+                devices. </li>
+              <li> Demonstrated excellent communication and problem-solving skills while ensuring
+                positive interactions with clients.</li>
+            </div>
+            <div class="tweet">
+              <h2>Office / Research Assistant Intern</h2>
+              <h3>Naver Cloud Company</h3>
+              <h4>July 2020 - October 2020</h4>
+              <h5>Skills : Python, Django, MySQL (DB Design), HTML5, CSS3, JavaScript, Agile</h5>
+              <li>Contributed to the efficient operation of IT infrastructure and cloud services by performing
+                general
+                administrative tasks and monitoring performance indicators. </li>
+              <li>Managed and analyzed sales data of cloud computing using advanced statistical software, such
+                as
+                Microsoft Excel, to drive business results.</li>
+  
+            </div>
+          </div>
+          <div class="content" id="project">
+          </div>
+          <div class="content" id="more">
+            <div id="more">
+              <h1>More about me</h1>
+              <div class="connect_opt">Resume<i class="fa-duotone fa-arrow-right"></i></div>
+              <div class="connect_opt"><a href="https://www.linkedin.com/in/shclaireyoon/">
+                  LinkedIn</a><i class="fa-duotone fa-arrow-right"></i></div>
+              <div class="connect_opt"><a
+                  href="https://wordpress.com/view/osoribitingsparrowphotography.photo.blog">Blog</a><i
+                  class="fa-duotone fa-arrow-right"></i></div>
+              <div class="connect_opt"><a href="https://github.com/honeydoyaji">Github</a><i
+                  class="fa-duotone fa-arrow-right"></i></div>
+            </div>
+            <div id="contact">
+              <h1>Contact Me!</h1>
+              <div class="email">yoon202@purdue.edu</div>
+            </div>
+          </div>
+    */
+</script>
+
+</html>

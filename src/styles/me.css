@@ -1,0 +1,116 @@
+#me {
+    margin: auto;
+    padding: 0.5rem;
+}
+#me h1 {
+  padding: 1.5rem;
+}
+#me_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content {
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+    
+    .me_col {
+    margin: 1rem;
+    }
+
+    #aboutme, #detailme {
+      display: flex;
+      flex-direction: row;
+      justify-content: stretch;
+      width: 100%;
+    }
+    #me_me, #me_contact, #detailme div{
+      padding: 1rem;
+      width: 100%;
+    }
+
+    #detailme p {
+      line-height: 1.5rem;
+    }
+    #me_contact a {
+      text-decoration: none;
+      color: black;
+      }
+      
+      #me_contact a:hover {
+      color: #888;
+      }
+
+      #contact-info {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+      }
+      #contact-info button{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 15px;
+        border: none;
+      }
+      .contact_opt {
+        text-align: center;
+      }
+
+      @keyframes bounce {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
+      }
+      
+      .contact_opt .icon:hover {
+        animation: bounce 1s ease-in-out;
+        -moz-animation: bounce 0.5s infinite linear;
+        -o-animation: bounce 0.5s infinite linear;
+        -webkit-animation: bounce 0.5s infinite linear;
+      }
+      .contact_opt:nth-child(1) button{
+        background-color: black;
+      }
+      .contact_opt:nth-child(2) button{
+        background-color: #0A66C2;
+      }
+
+      @media screen and (max-width: 1024px) {
+        #me_header {
+          font-size: 2.5rem;
+        }
+        #me_me,
+        #me_contact, #detailme div {
+          padding: 0.75rem;
+        }
+        #ap_bg {
+          display: none;
+        }
+        #contact-info button{
+          border-radius: 15px;
+          border: none;
+        }
+      }
+      
+      @media screen and (max-width: 767px) {
+        #me_header {
+          font-size: 2rem;
+          padding: 0.5rem;
+        }
+        #me_content {
+          flex-direction: column;
+          align-items: center;
+        }
+        .me_col {
+          margin: 0.5rem;
+        }
+        #aboutme, #detailme {
+          flex-direction: column;
+          width: 90%;
+        }
+      }

@@ -1,0 +1,182 @@
+#work {
+    padding: 3rem 1rem;
+    margin: 1rem;
+    height: calc(100vh - 150px);
+    margin-top: 15rem;
+}
+#work h1 {
+    padding: 0.5rem;
+    text-align: center;
+  }
+#work-content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .job {
+    width: 30%;
+    padding: 1.5rem;
+    margin: 0 0.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  .job h2,h3,h4 {
+    text-align: center;
+}
+  .job h2 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    height: 20px;    
+    }
+    .job h3 {
+    font-size: 1.15rem;
+    height: 20px;
+    color: #555960;
+    }
+    .job h4 {
+    font-size: 1.05rem;
+    padding: 0.1rem 0;
+    padding-bottom: 1rem;
+    height: 25px;
+    color: #555960;
+    border-bottom: 1px solid #8e6f3e;
+
+    }
+
+  .job_desc {
+        
+    padding-top: 1rem;
+}
+.job_desc p {
+    font-size: 1rem;
+    padding: 0.25rem 0;
+    
+}
+.job_skills {
+    font-size: 1rem;
+    padding-top: 0.75rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1500px) {
+    #work {
+        margin-top: 30rem;
+        padding: 2rem 1rem;
+        height: 100%;
+    }
+    .job h2 {
+        font-size: 1.15rem;
+        height: 15px;
+    }
+    .job h3 {
+        font-size: 1.05rem;
+        height: 20px;
+    }
+    .job h4 {
+        font-size: 1rem;
+        padding: 0.1rem 0;
+        height: 25px;
+        border-bottom: 1px solid #8e6f3e;
+    }
+    .job_desc p {
+        font-size: 0.9rem;
+    }
+    .job_skills {
+        display: none;
+    }
+  }
+@media screen and (max-width: 1060px) {
+    #work {
+        margin-top: 40rem;
+        padding: 1rem 0.5rem;
+    }
+      
+    #work-content {
+        width: 100%;
+        flex-direction: column;
+        
+        align-items: center;
+        margin: auto;
+    }  
+    .job {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        padding: 0.75rem;
+        margin: 0.35rem 0;
+    }
+    .job_main {
+        width: 30%;
+        padding-right: 0.75rem;
+        border-right: 1px solid black;
+    }
+    .job_desc {
+        width: 100%;
+        padding: 0;
+        padding-left: 0.5rem;
+    }
+
+    .job h2 {
+        font-size: 1.15rem;
+        height: 20px;
+        
+    }
+    .job h3 {
+        font-size: 1rem;
+        height: 20px;
+        padding: 0.75rem 0;
+    }
+    .job h4 {
+        font-size: 1rem;
+        padding: 0.5rem 0;
+        height: 20px;
+        border: none;
+    }
+    .job_desc p {
+        font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    #work {
+        margin-top: 55rem;
+    }
+    .job h3,.job h4 {
+        font-size: 0.9rem;
+        height: 100%;
+    }
+    .job h2 {
+        
+        height: 100%;
+        font-size: 1.05rem;
+    }
+    .job {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        padding: 0.75rem;
+        margin: 0.35rem 0;
+    }
+    
+    .job_main {
+        width: 100%;
+        padding: 0.5rem;
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+      
+  }
+  @media screen and (max-width: 400px) {
+    #work {
+        margin-top: 65rem;
+    }
+      
+  }

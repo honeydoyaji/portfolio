@@ -1,0 +1,122 @@
+/*
+
+#more {
+    text-align: center;
+    padding: 3rem 1rem;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 200px; 
+    height: calc(90vh - 60px); 
+    width: 80%;
+    
+}
+
+#more h1{
+    color: black;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 3rem;
+}
+#more fieldset {
+    border: 2px solid #8e6f3e;
+    border-radius: 10px;}
+
+    
+#more_me {
+    padding-left: 1rem;
+    height: 100%;
+}
+#more_me_contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.connect_opt a {
+    padding: 1rem;
+    font-size: 2rem;
+    color: #555960;
+}
+.connect_opt {
+    margin: 1rem 0;
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.connect_opt:hover {
+    background-color: #cfb991;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+.connect_opt a:hover {
+    color: black;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    
+    padding: 1rem 3rem;
+    border: 2px solid #cfb991;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .email {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    resize: none;
+  }
+  
+  form button[type="submit"] {
+    padding: 10px 20px;
+    border: 2px solid #8e6f3e;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  form button[type="submit"]:hover {
+    background-color: #8e6f3e;
+    color: white;
+  }
+  */

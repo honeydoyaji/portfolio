@@ -1,0 +1,61 @@
+
+/* Left Panel 
+#pf_left {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    padding: 20px;
+    bottom: 0;
+    width: 200px;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    border-right: 1px solid #8e6f3e;
+    background-color: #cfb991;
+  }
+  
+  #pf_left h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    padding: 0.25rem;
+    margin-bottom: 1rem;
+    font-family: 'Noto Sans', 'Source Serif Pro';
+    font-weight: bold;
+  }
+  #pf_left h3 {
+    font-size: 1rem;
+    padding: 0.25rem 0;
+    margin-bottom: 0.5rem;
+  }
+  #pf_left h4 {
+    padding-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  /*
+  .sticky-note {
+    position: relative;
+    background-color: #ffd180;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  }
+  .sticky-note:before, .sticky-note:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15px 10px 15px;
+    border-color: transparent transparent #ffd180 transparent;
+  }
+  
+  .sticky-note:before {
+    left: -15px;
+  }
+  
+  .sticky-note:after {
+    right: -15px;
+    transform: scaleX(-1);
+  } */

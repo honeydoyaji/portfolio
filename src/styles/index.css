@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Delicious+Handrawn&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import "reset.css";
+
+
+@import "style_comp/header.css";
+
+@import "me.css";
+
+@import "work.css";
+
+@import "style_comp/skill_tag.css";
+@import "project.css";
+@import "style_comp/dark-mode.css";
+/*
+
+@import "more.css";
+
+@import "style_comp/left_panel.css";
+@import "style_comp/sticky-note.css";
+
+*/
+
+body {
+  font-family: sans-serif;
+  color: white;
+  font-size: 16px;
+  background-image: url("bg.jpg");
+}
+.contents {
+  margin-top: 40px; /* set margin top to the height of the top-bar */
+  height: calc(100vh - 50px); /* set height to remaining viewport height */
+  overflow-y: scroll;
+  width: 100%;
+
+}
+.contents::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+.content {
+  color: black;
+  height: 100vh;
+}
+
+.bg-set {
+  padding: 0.2rem 0.5rem; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: rgba(249,250,251,0.6);
+  border-radius: 15px;
+  margin: 0.5rem;
+  color: black;
+}
+
+
+h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+
+  font-family: 'Aldrich', sans-serif;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+

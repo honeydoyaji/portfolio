@@ -1,0 +1,12 @@
+/* Light mode and dark mode */
+.dark-mode header,.contents {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+  }
+  .dark-mode .bg-set {
+    background-color: rgba(0,0,0,0.2);
+  }
+  .dark-mode div {
+    color: white;
+  }
+  
