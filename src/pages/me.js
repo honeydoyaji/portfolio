@@ -30,22 +30,19 @@ const Me = () => {
               <h2>Contact</h2>
               <div id="contact-info">
                 <div className="contact_opt">
-                  <button
-                    onclick="location.href='https://github.com/honeydoyaji'"
-                    target="_blank"
-                  >
+                  <a href="https://github.com/honeydoyaji" target="_blank">
                     <FontAwesomeIcon
                       className="icon"
                       icon={faGithub}
                       size="5x"
                       style={{ color: "white" }}
                     />
-                  </button>
+                  </a>
                   <h3>Github</h3>
                 </div>
                 <div className="contact_opt">
-                  <button
-                    onclick="location.href='https://www.linkedin.com/in/shclaireyoon/'"
+                  <a
+                    href="https://www.linkedin.com/in/shclaireyoon/"
                     target="_blank"
                   >
                     <FontAwesomeIcon
@@ -53,17 +50,17 @@ const Me = () => {
                       icon={faLinkedinIn}
                       size="5x"
                     />
-                  </button>
+                  </a>
                   <h3>LinkedIn</h3>
                 </div>
                 <div className="contact_opt">
-                  <button onclick="location.href='../resume.pdf'" download>
+                  <a href="./resume.pdf" download="resume.pdf">
                     <FontAwesomeIcon
                       className="icon"
                       icon={faFileArrowDown}
                       size="5x"
                     />
-                  </button>
+                  </a>
                   <h3>Resume</h3>
                 </div>
               </div>

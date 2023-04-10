@@ -12,14 +12,14 @@ const My_Ani = () => {
   }
 
   return (
-    <div>
+    <div styles="padding:1rem;">
       {isLoading ? (
         // Show a loading indicator while the necessary data or resources are still loading
         <div
           style={{
-            backgroundColor: "none",
-            width: "20%",
-            height: "75vh",
+            backgroundColor: "transparent",
+            width: "20vw",
+            height: "80vh",
           }}
         >
           Loading...
@@ -31,7 +31,7 @@ const My_Ani = () => {
           style={{
             backgroundColor: "transparent",
             width: "20vw",
-            height: "75vh",
+            height: "80vh",
           }}
         >
           <ambientLight intensity={1.25} />

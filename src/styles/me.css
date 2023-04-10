@@ -10,6 +10,9 @@
     flex-direction: row;
     justify-content: space-around;
 }
+#ap_bg {
+  margin: 2rem 1rem;
+}
 .content {
     background-color: none;
     margin: 0;
@@ -28,12 +31,17 @@
       width: 100%;
     }
     #me_me, #me_contact, #detailme div{
-      padding: 1rem;
+      padding: 0.75rem;
       width: 100%;
+      text-align: left;
+    }
+    #me_me h2, #me_contact h2, #detailme  h2 {
+      padding-left: 1rem;
     }
 
     #detailme p {
       line-height: 1.5rem;
+      font-size: 0.8rem;
     }
     #me_contact a {
       text-decoration: none;
@@ -51,7 +59,7 @@
         justify-content: space-around;
         
       }
-      #contact-info button{
+      #contact-info a{
         width: 5rem;
         height: 5rem;
         border-radius: 15px;
@@ -60,25 +68,34 @@
       .contact_opt {
         text-align: center;
       }
-
-      @keyframes bounce {
-        0% { transform: translateY(0); }
-        50% { transform: translateY(-10px); }
-        100% { transform: translateY(0); }
+      .contact_opt a {
+        text-align: center;
+        
+        display: block;
+        padding: 0.25rem;
       }
-      
       .contact_opt .icon:hover {
         animation: bounce 1s ease-in-out;
         -moz-animation: bounce 0.5s infinite linear;
         -o-animation: bounce 0.5s infinite linear;
         -webkit-animation: bounce 0.5s infinite linear;
       }
-      .contact_opt:nth-child(1) button{
+      .contact_opt:nth-child(1) a{
         background-color: black;
       }
-      .contact_opt:nth-child(2) button{
+      .contact_opt:nth-child(2) a{
         background-color: #0A66C2;
       }
+      .contact_opt:last-child a{
+        background-color: white;
+      }
+      @keyframes bounce {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
+      }
+      
+      
 
       @media screen and (max-width: 1024px) {
         #me_header {

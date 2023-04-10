@@ -242,10 +242,11 @@ export const PR_LISTS = [
     title: "Portfolio",
     subtitle: "My portfolio webistes",
     description:
-      "I wanted to create something and upload on AWS using my AWS knowledge.",
-    skills: ["2023", "JavaScript"],
-    projectLink: "https://example.com",
+      "The portfolio website that indicates myself, my work experiences, and projects! I wanted to use my AWS knowledge gained when studying for AWS certificates. EC2 instance and Route 53 was used. ",
+    skills: ["2023", "HTML5", "CSS3", "JavaScript", "ReactJS", "AWS", "Git"],
+    projectLink: "https://github.com/honeydoyaji/portfolio",
   },
+
   {
     id: 3,
     title: "QA Checklist",
@@ -253,6 +254,28 @@ export const PR_LISTS = [
     description: "Backend - Database Design and Implementation",
     skills: ["2023", "Work"],
     projectLink: "https://example.com",
+  },
+  {
+    id: 3,
+    title: "Accounts Dashboard",
+    subtitle: "Data visualized dashboard",
+    description:
+      "Accounts Dashboard collects data from multiple partners and presents it to the Quality Assurance team in a standardized and easy-to-analyze format. It features charts, filters, and statistics for the data analysis. The user-friendly interface simplifies finding and comparing data from different partners.",
+    skills: [
+      "2023",
+      "Work",
+      "Python3",
+      "Django",
+      "Plotly",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "JQuery",
+      "MySQL",
+      "WinSCP",
+    ],
+    projectLink:
+      "https://dashing-receipt-0f2.notion.site/Accounts-Dashboard-93bb3e1050d849e580cf70d53154e768",
   },
   {
     id: 4,
@@ -272,24 +295,7 @@ export const PR_LISTS = [
     projectLink: "https://example.com",
   },
   {
-    id: 1,
-    title: "Accounts Dashboard",
-    subtitle: "Data visualized dashboard",
-    description: "Full stack development",
-    skills: [
-      "2022",
-      "2023",
-      "Python",
-      "Work",
-      "Django",
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-    ],
-    projectLink: "https://example.com",
-  },
-  {
-    id: 1,
+    id: 5,
     title: "Book Inventory Database",
     subtitle: "CRUD Practice Inventory",
     description: "First PHP application created from className",
@@ -297,7 +303,7 @@ export const PR_LISTS = [
     projectLink: "https://example.com",
   },
   {
-    id: 1,
+    id: 6,
     title: "Purdue Go!",
     subtitle: "Reward Collecting Game",
     description: "Android Studio application created from class",
@@ -305,15 +311,17 @@ export const PR_LISTS = [
     projectLink: "https://example.com",
   },
   {
-    id: 1,
+    id: 7,
     title: "Around Purdue",
     subtitle: "Purdue Campus Guide App",
-    description: "First Android Studio application created",
-    skills: ["2021", "Java", "Android Studio"],
-    projectLink: "https://example.com",
+    description:
+      "The application to help Purdue students and visitors visualize popular destinations and offer a localized perspective to nearby attractions on Purdue campus.",
+    skills: ["2021", "Java", "Android Studio", "GitHub"],
+    projectLink:
+      "https://dashing-receipt-0f2.notion.site/Around-Purdue-0ea7f089fd3d472c902a84d5c7c7718e",
   },
   {
-    id: 1,
+    id: 8,
     title: "Hallo-Run",
     subtitle: "Staged Run Game",
     description: "First Unreal application created from className",
@@ -321,15 +329,16 @@ export const PR_LISTS = [
     projectLink: "https://example.com",
   },
   {
-    id: 1,
+    id: 9,
     title: "General E-Medic System Prototype",
     subtitle: "The prototype of medical system",
     description: "Frontend UI Design and Database",
     skills: ["2021", "SQL", "Python"],
-    projectLink: "https://example.com",
+    projectLink:
+      "https://dashing-receipt-0f2.notion.site/General-E-Medic-System-Prototype-79ed869ab8c44ecf99a0d443b6f42352",
   },
   {
-    id: 1,
+    id: 10,
     title: "KakaoTalk Clone",
     subtitle: "Mobile Chat App",
     description: "Frontend Design",
@@ -338,7 +347,7 @@ export const PR_LISTS = [
   },
 
   {
-    id: 1,
+    id: 11,
     title: "Work Remote",
     subtitle: "Remote job crawler based on keyword",
     description: "Scrap job information and refine data",
@@ -346,11 +355,12 @@ export const PR_LISTS = [
     projectLink: "https://example.com",
   },
   {
-    id: 1,
+    id: 12,
     title: "Donut Inventory Demo",
     subtitle: "Java Desktop App",
     description: "First Java application created from Java class",
     skills: ["~2020", "Java", "NetBean"],
-    projectLink: "https://example.com",
+    projectLink:
+      "https://dashing-receipt-0f2.notion.site/Donut-Inventory-Demo-73d505eb73d045b2bc258a88d1729f6f",
   },
 ];

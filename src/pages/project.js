@@ -33,7 +33,12 @@ function Project() {
       <section className="me_col" id="pf_middle_pj">
         <div className="masonry">
           {PR_LISTS.map((pr, index) => (
-            <div key={index} className={`masonry-item ${index}`}>
+            <a
+              key={index}
+              className={`masonry-item ${index}`}
+              href={pr.projectLink}
+              target="_blank"
+            >
               <h2>{pr.title}</h2>
               <h3>{pr.subtitle}</h3>
               <h4>{pr.description}</h4>
@@ -49,7 +54,7 @@ function Project() {
                   </span>
                 ))}
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </section>
