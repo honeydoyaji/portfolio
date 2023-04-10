@@ -4,7 +4,16 @@
     margin: 0.25rem;
     padding: 0.25rem 0.5rem;    
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
     
+}
+.skill_tag_reset {
+    border-radius: 2px;
+    border: double;
+}
+.skill_tag_filter {
+    background-color: rgba(255, 255, 255, 0.7);
+
 }
 .masonry .skill_tag {
     font-size: 0.8rem;
@@ -98,7 +107,7 @@
 }
 
 
-/** Database -> Green & Lime */
+/** Database -> Yellow & Orange */
 .tag_db_0 {
     background: #fff3bf;
 
@@ -118,7 +127,7 @@
 
 }
 
-/** Database -> Grape & Violet */
+/** Tools -> Grape & Violet */
 .tag_tool_0 {
     background: #f3d9fa;
 
@@ -140,4 +149,13 @@
 }
 .tag_dev_0 {
     background: #f8f0fc;
+}
+.tag_role_0 {background: #f3f0ff;
+
+}
+.tag_role_1 {background: #fff0f6;
+    
+}
+.tag_role_2 {background: #fff5f5;
+    
 }

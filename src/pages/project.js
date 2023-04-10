@@ -1,8 +1,26 @@
-import React, { Suspense, useMemo } from "react";
+import React, { useState } from "react";
 
 import { FILTERED, TAGS, PR_LISTS } from "../components/data_list.js";
 
 function Project() {
+  const [selectedSkill, setSelectedSkill] = useState("");
+
+  function filterProjectsBySkill(skill) {
+    setSelectedSkill(skill);
+  }
+
+  function filterProjects(pr) {
+    if (selectedSkill === "") {
+      return true;
+    } else {
+      return pr.skills.includes(selectedSkill);
+    }
+  }
+
+  function resetFilters() {
+    setSelectedSkill("");
+  }
+
   return (
     <div className="content" id="project">
       <section id="tag_project">
@@ -10,17 +28,27 @@ function Project() {
         <div id="search_div">
           <div id="tag_list">
             <div
-              className={`skill_tag ${
-                FILTERED.find((tag) => tag.tag === "2022")?.id
+              onClick={() => resetFilters()}
+              className={`skill_tag skill_tag_reset
+              }`}
+            >
+              Reset
+            </div>
+            <div
+              className={`skill_tag skill_tag_filter
               }`}
             >
               Filter by tag:{" "}
             </div>
             {FILTERED.map((tagie, index) => (
-              <div key={index} className={`skill_tag ${tagie.id}`}>
+              <div
+                key={index}
+                className={`skill_tag ${tagie.id}`}
+                onClick={() => filterProjectsBySkill(tagie.tag)}
+              >
                 <span
                   key={index}
-                  id={`${tagie.type}${tagie.id}`}
+                  id={`${tagie.id}`}
                   className={`job_skills_c${tagie.id}`}
                 >
                   {tagie.tag}
@@ -32,7 +60,7 @@ function Project() {
       </section>
       <section className="me_col" id="pf_middle_pj">
         <div className="masonry">
-          {PR_LISTS.map((pr, index) => (
+          {PR_LISTS.filter(filterProjects).map((pr, index) => (
             <a
               key={index}
               className={`masonry-item ${index}`}
@@ -49,6 +77,7 @@ function Project() {
                     className={`skill_tag ${
                       TAGS.find((tag) => tag.tag === skill)?.id
                     }`}
+                    onClick={() => filterProjectsBySkill(skill)}
                   >
                     {skill}
                   </span>

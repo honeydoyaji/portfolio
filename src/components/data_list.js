@@ -20,22 +20,22 @@ export const FILTERED = [
     tag: "Java",
   },
   {
-    id: "tag_lang_2",
+    id: "tag_role_0",
     tag: "Frontend",
+  },
+  {
+    id: "tag_role_1",
+    tag: "Backend",
   },
 
   {
-    id: "tag_lang_2",
-    tag: "Backend",
+    id: "tag_role_2",
+    tag: "FullStack",
   },
   // Frameworks
   {
     id: "tag_fw_0",
     tag: "Django",
-  },
-  {
-    id: "tag_fw_2",
-    tag: "NodeJS",
   },
   {
     id: "tag_fw_3",
@@ -51,7 +51,6 @@ export const FILTERED = [
     id: "tag_db_0",
     tag: "SQL",
   },
-
   {
     id: "tag_db_1",
     tag: "MySQL",
@@ -173,6 +172,19 @@ export const TAGS = [
     id: "tag_tool_3",
     tag: "AWS",
   },
+  {
+    id: "tag_role_0",
+    tag: "Frontend",
+  },
+  {
+    id: "tag_role_1",
+    tag: "Backend",
+  },
+
+  {
+    id: "tag_role_2",
+    tag: "FullStack",
+  },
 ];
 
 export const JOBS = [
@@ -234,7 +246,7 @@ export const PR_LISTS = [
     title: "Study With Me",
     subtitle: "Inspired by Zoom",
     description: "Study Log",
-    skills: ["2022", "JavaScript"],
+    skills: ["2022", "JavaScript", "FullStack", "Frontend"],
     projectLink: "https://example.com",
   },
   {
@@ -243,17 +255,41 @@ export const PR_LISTS = [
     subtitle: "My portfolio webistes",
     description:
       "The portfolio website that indicates myself, my work experiences, and projects! I wanted to use my AWS knowledge gained when studying for AWS certificates. EC2 instance and Route 53 was used. ",
-    skills: ["2023", "HTML5", "CSS3", "JavaScript", "ReactJS", "AWS", "Git"],
+    skills: [
+      "2023",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ReactJS",
+      "AWS",
+      "EC2",
+      "Git",
+      "FullStack",
+      "Frontend",
+      "Backend",
+      "Agile",
+    ],
     projectLink: "https://github.com/honeydoyaji/portfolio",
   },
 
   {
     id: 3,
     title: "QA Checklist",
-    subtitle: "Course Checklist",
-    description: "Backend - Database Design and Implementation",
-    skills: ["2023", "Work"],
-    projectLink: "https://example.com",
+    subtitle: "Online course checklist",
+    description:
+      "[Backend: Database Design & Implementation] Integrating the Quality Assurance team's course checklist, which is currently in an Excel sheet, into the application program would enhance user accessibility and convenience, thereby improving the overall user experience.",
+    skills: [
+      "2023",
+      "Work",
+      "Backend",
+      "Python3",
+      "Django",
+      "MySQL",
+      "WinSCP",
+      "Agile",
+    ],
+    projectLink:
+      "https://dashing-receipt-0f2.notion.site/QA-Checklist-bbd0f327e50246c8ad6fa3ff5e36399c",
   },
   {
     id: 3,
@@ -273,6 +309,11 @@ export const PR_LISTS = [
       "JQuery",
       "MySQL",
       "WinSCP",
+      "FullStack",
+      "Frontend",
+      "Backend",
+      "MySQL",
+      "Agile",
     ],
     projectLink:
       "https://dashing-receipt-0f2.notion.site/Accounts-Dashboard-93bb3e1050d849e580cf70d53154e768",
@@ -280,8 +321,9 @@ export const PR_LISTS = [
   {
     id: 4,
     title: "Webcheck",
-    subtitle: "Marketing check crawler",
-    description: "Full stack development",
+    subtitle: "Purdue Marketing Standards Validator",
+    description:
+      "[Full Stack Development] Python-based web application that automates the verification process of website marketing standards for Purdue collaborators. The app's primary features include a link management system, link dashboard, and detail page, providing users with a summary of link information, sorting, filtering, and statistical data.",
     skills: [
       "2022",
       "2023",
@@ -291,24 +333,24 @@ export const PR_LISTS = [
       "HTML5",
       "CSS3",
       "JavaScript",
+      "FullStack",
+      "Frontend",
+      "Backend",
+      "MySQL",
+      "Agile",
     ],
-    projectLink: "https://example.com",
-  },
-  {
-    id: 5,
-    title: "Book Inventory Database",
-    subtitle: "CRUD Practice Inventory",
-    description: "First PHP application created from className",
-    skills: ["2022", "PHP", "HTML5", "CSS3"],
-    projectLink: "https://example.com",
+    projectLink:
+      "https://dashing-receipt-0f2.notion.site/Web-Check-367e33a57b2e4786bc8a51452c57fdc2",
   },
   {
     id: 6,
     title: "Purdue Go!",
     subtitle: "Reward Collecting Game",
-    description: "Android Studio application created from class",
-    skills: ["2022", "Java", "Android Studio"],
-    projectLink: "https://example.com",
+    description:
+      "The app provides experiencee to discover and collect special characters at the main department buildings at Purdue. Also it allows players to collect landmark monsters, learning interesting facts about them and exploring the campus as they go.",
+    skills: ["2022", "Java", "Android Studio", "Frontend"],
+    projectLink:
+      "https://www.notion.so/Purdue-Go-5f30765512124d67aa5bd1ff7b1b6454?pvs=4",
   },
   {
     id: 7,
@@ -316,7 +358,7 @@ export const PR_LISTS = [
     subtitle: "Purdue Campus Guide App",
     description:
       "The application to help Purdue students and visitors visualize popular destinations and offer a localized perspective to nearby attractions on Purdue campus.",
-    skills: ["2021", "Java", "Android Studio", "GitHub"],
+    skills: ["2021", "Java", "Android Studio", "GitHub", "Frontend", "Backend"],
     projectLink:
       "https://dashing-receipt-0f2.notion.site/Around-Purdue-0ea7f089fd3d472c902a84d5c7c7718e",
   },
@@ -324,43 +366,68 @@ export const PR_LISTS = [
     id: 8,
     title: "Hallo-Run",
     subtitle: "Staged Run Game",
-    description: "First Unreal application created from className",
-    skills: ["2021", "Unreal"],
-    projectLink: "https://example.com",
+    description: "Game Design, Team Management, Game Concept",
+    skills: ["2021", "Unreal", "Project Management"],
+    projectLink:
+      "https://drive.google.com/file/d/1cxXwA4tdfz4GN_KThA0cfKYmYskeyEel/view?usp=sharing",
   },
   {
     id: 9,
     title: "General E-Medic System Prototype",
     subtitle: "The prototype of medical system",
     description: "Frontend UI Design and Database",
-    skills: ["2021", "SQL", "Python"],
+    skills: ["2021", "SQL", "Python", "Frontend", "Backend"],
     projectLink:
       "https://dashing-receipt-0f2.notion.site/General-E-Medic-System-Prototype-79ed869ab8c44ecf99a0d443b6f42352",
   },
   {
     id: 10,
     title: "KakaoTalk Clone",
-    subtitle: "Mobile Chat App",
+    subtitle: "Mobile Chat Web App",
     description: "Frontend Design",
-    skills: ["2021", "HTML5", "CSS3"],
-    projectLink: "https://example.com",
+    skills: ["2021", "HTML5", "CSS3", "Frontend"],
+    projectLink: "https://github.com/honeydoyaji/kakao-talk-clone",
   },
 
   {
     id: 11,
     title: "Work Remote",
-    subtitle: "Remote job crawler based on keyword",
-    description: "Scrap job information and refine data",
-    skills: ["2021", "SQL", "Python"],
-    projectLink: "https://example.com",
+    subtitle: "Web scrapper",
+    description:
+      "[Full stack Python Web App] Developed real-time web scraper specifically looking for the open remote jobs by keywords from employment websites",
+    skills: [
+      "2021",
+      "Python",
+      "HTML5",
+      "CSS3",
+      "Flask",
+      "dbsqlite",
+      "SQL",
+      "BeautifulSoup",
+      ,
+      "FullStack",
+    ],
+    projectLink: "https://github.com/honeydoyaji/RemoteJobScrapper",
   },
   {
     id: 12,
     title: "Donut Inventory Demo",
-    subtitle: "Java Desktop App",
-    description: "First Java application created from Java class",
-    skills: ["~2020", "Java", "NetBean"],
+    subtitle: "CRUD System Desktop App",
+    description: "Inventory system prototype",
+    skills: ["~2020", "Java", "NetBean", "Frontend"],
     projectLink:
       "https://dashing-receipt-0f2.notion.site/Donut-Inventory-Demo-73d505eb73d045b2bc258a88d1729f6f",
   },
 ];
+
+/*
+  {
+    id: 5,
+    title: "Book Inventory Database",
+    subtitle: "CRUD Practice Inventory",
+    description: "First PHP web application created from className",
+    skills: ["2022", "PHP", "HTML5", "CSS3", "JavaScript"],
+    projectLink: "",
+  },
+
+*/
