@@ -104,13 +104,58 @@ const Me = () => {
                 success of any project.
               </p>
             </div>
-            <div className="bg-set">
+            <div className="bg-set" id="dev_container">
               <h2>Dev Skills</h2>
-              <li>Python</li>
-              <li>Django</li>
-              <li>SQL</li>
-              <li>Frontend (HTML, CSS, JS)</li>
-              <li>Python</li>
+              <div id="dev_skills">
+                <span class="dev_skill dev_skill_75">
+                  <span class="skill_name">Python</span>
+                  <span class="skill_duration">3 years</span>
+                </span>
+                <span class="dev_skill dev_skill_50">
+                  <span class="skill_name">Django</span>
+                  <span class="skill_duration">2 years</span>
+                </span>
+                <span class="dev_skill dev_skill_50">
+                  <span class="skill_name">SQL</span>
+                  <span class="skill_duration">2 years</span>
+                </span>
+                <span class="dev_skill dev_skill_50">
+                  <span class="skill_name">MySQL</span>
+                  <span class="skill_duration">2 years</span>
+                </span>
+                <span class="dev_skill dev_skill_50">
+                  <span class="skill_name">HTML5</span>
+                  <span class="skill_duration">2 years</span>
+                </span>
+                <span class="dev_skill dev_skill_50">
+                  <span class="skill_name">CSS3</span>
+                  <span class="skill_duration">2 years</span>
+                </span>
+                <span class="dev_skill dev_skill_50">
+                  <span class="skill_name">JavaScript</span>
+                  <span class="skill_duration">2 years</span>
+                </span>
+                <span class="dev_skill dev_skill_50">
+                  <span class="skill_name">Database</span>
+                  <span class="skill_duration">2 years</span>
+                </span>
+                <span class="dev_skill dev_skill_25">
+                  <span class="skill_name">Agile</span>
+                  <span class="skill_duration">1 year</span>
+                </span>
+                <span class="dev_skill dev_skill_25">
+                  <span class="skill_name">AWS</span>
+                  <span class="skill_duration">1 year</span>
+                </span>
+                <span class="dev_skill dev_skill_25">
+                  <span class="skill_name">React</span>
+                  <span class="skill_duration">1 year</span>
+                </span>
+                <span class="dev_skill dev_skill_25">
+                  <span class="skill_name">Flask</span>
+                  <span class="skill_duration">1 year</span>
+                </span>
+              </div>
             </div>
           </div>
         </div>
